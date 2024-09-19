@@ -2,13 +2,43 @@ project:
   type: website
 
 website:
-  title: "Example Website"
+  title: "NASA Fire Tracking"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - walkthrough.qmd
+
+  sidebar:
+    logo: "images/nasa.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/zebbecker/quarto-example
+    style: "docked"
+    search: true
+    contents: 
+      - text: "Home/About"
+        href: "index.qmd"
+      - section: "Data Products"
+        href: data-summary.qmd
+        contents:
+          - api.qmd
+          - publications.qmd
+          - data_sources.qmd
+      - section: "Technical Documentation"
+        href: docs.qmd
+        contents: 
+          - system_architecture.qmd
+          - contributing.qmd
+          - releasing.qmd
+          - fireatlas_core.qmd
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "LICENSE"
+
+
 
 format:
   html:
