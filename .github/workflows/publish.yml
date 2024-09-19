@@ -7,7 +7,7 @@ name: Quarto Render and Publish
 
 jobs: 
   build-deploy: 
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
