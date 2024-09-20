@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zebbecker.github.io/quarto-example/about.html</loc>
-    <lastmod>2024-09-19T18:41:59.148Z</lastmod>
+    <loc>https://zebbecker.github.io/quarto-example/docs/new_region.html</loc>
+    <lastmod>2024-09-20T00:22:30.597Z</lastmod>
   </url>
   <url>
-    <loc>https://zebbecker.github.io/quarto-example/walkthrough.html</loc>
-    <lastmod>2024-09-19T18:41:59.150Z</lastmod>
+    <loc>https://zebbecker.github.io/quarto-example/docs/publications.html</loc>
+    <lastmod>2024-09-20T00:22:30.597Z</lastmod>
   </url>
   <url>
-    <loc>https://zebbecker.github.io/quarto-example/index.html</loc>
-    <lastmod>2024-09-19T18:41:59.150Z</lastmod>
+    <loc>https://zebbecker.github.io/quarto-example/docs/regions.html</loc>
+    <lastmod>2024-09-20T00:22:30.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/data_sources.html</loc>
+    <lastmod>2024-09-20T00:22:30.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/data.html</loc>
+    <lastmod>2024-09-20T00:22:30.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/api.html</loc>
+    <lastmod>2024-09-20T00:22:30.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/releasing.html</loc>
+    <lastmod>2024-09-20T00:22:30.598Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/playbook_dps_debug.html</loc>
+    <lastmod>2024-09-20T00:22:30.597Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/contributing.html</loc>
+    <lastmod>2024-09-20T00:22:30.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/about.html</loc>
+    <lastmod>2024-09-20T00:22:30.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/system_architecture.html</loc>
+    <lastmod>2024-09-20T00:22:30.598Z</lastmod>
   </url>
 </urlset>
