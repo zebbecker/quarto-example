@@ -125,7 +125,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/system_architecture.html">Technical Documentation</a></li><li class="breadcrumb-item"><a href="../docs/contributing.html">Running Tests</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../docs/system_architecture.html">Technical Documentation</a></li><li class="breadcrumb-item"><a href="../docs/contributing.html">Contributing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -225,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../docs/contributing.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Running Tests</span></a>
+ <span class="menu-text">Contributing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -252,7 +252,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#running-tests" id="toc-running-tests" class="nav-link active" data-scroll-target="#running-tests">Running Tests</a></li>
+  <li><a href="#contributing" id="toc-contributing" class="nav-link active" data-scroll-target="#contributing">Contributing</a>
+  <ul class="collapse">
+  <li><a href="#editing-docs" id="toc-editing-docs" class="nav-link" data-scroll-target="#editing-docs">Editing Docs</a></li>
+  <li><a href="#running-tests" id="toc-running-tests" class="nav-link" data-scroll-target="#running-tests">Running Tests</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/zebbecker/quarto-example/edit/main/docs/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/zebbecker/quarto-example/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -262,8 +266,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="running-tests" class="level1">
-<h1>Running Tests</h1>
+<section id="contributing" class="level1">
+<h1>Contributing</h1>
+<section id="editing-docs" class="level2">
+<h2 class="anchored" data-anchor-id="editing-docs">Editing Docs</h2>
+<p>Edit locally with VSCode Quarto extension:</p>
+<ol type="1">
+<li><p><a href="https://quarto.org/docs/download/">Download Quarto</a></p></li>
+<li><p>Install jupyter if needed (<code>pip install jupyter</code>)</p></li>
+<li><p>Install <a href="https://marketplace.visualstudio.com/items?itemName=quarto.quarto">Quarto extension</a> in VSCode</p></li>
+<li><p>Clone this repo and open it in VSCode.</p></li>
+<li><p>Make edits to <code>.qmd</code>, <code>.md</code> or <code>.ipynb</code> files. ::: callout-tip Open the Command Palette (cmd-shift-p on Mac) and select <code>Quarto: Edit in Visual Mode</code> for What You See Is What You Get editing. Select <code>Quarto: Edit in Source Mode</code> to go back. :::</p></li>
+<li><p>Preview website. Select the Preview icon in upper right, use the keyboard shortcut cmd-shift-k, or use the <code>Quarto: Preview</code> command from the Command Palette.</p></li>
+<li><p>Once everything looks good, commit your changes and push to GitHub. If you pushed directly to main, GitHub will automatically build and deploy the new website reflecting your changes. If you are working on a branch, GitHub will build and deploy your changes when you create a pull request and merge your branch into main.</p></li>
+</ol>
+<p>Edit in your browser</p>
+<ol type="1">
+<li>For simple edits, you can edit markdown (<code>.qmd</code> and <code>.md</code>) files directly on GitHub. Again, as soon as you push to main, the website will rebuild to reflect your changes.</li>
+</ol>
+<p>Edit in the MAAP ADE</p>
+<ol type="1">
+<li><p>You could also clone the repo in the ADE and use that interface to edit markdown and Jupyter Notebooks, then commit to GitHub the same way.</p></li>
+<li><p>Preview coming soon???</p></li>
+</ol>
+</section>
+<section id="running-tests" class="level2">
+<h2 class="anchored" data-anchor-id="running-tests">Running Tests</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git clone <span class="op">&lt;</span>this-repo<span class="op">&gt;</span> fireatlas</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> cd fireatlas/</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> pip install <span class="at">-e</span> <span class="st">'.[test]'</span></span>
@@ -271,6 +299,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> pytest <span class="at">-v</span> <span class="at">--runslow</span> tests/ <span class="co"># include long-running tests</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
