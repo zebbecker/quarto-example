@@ -13,6 +13,7 @@ Edit locally with VSCode Quarto extension:
 4. Clone this repo and open it in VSCode. 
 
 5. Make edits to `.qmd`, `.md` or `.ipynb` files.
+
 ::: callout-tip
 Open the Command Palette (cmd-shift-p on Mac) and select `Quarto: Edit in Visual Mode` for What You See Is What You Get editing. Select `Quarto: Edit in Source Mode` to go back. 
 :::
