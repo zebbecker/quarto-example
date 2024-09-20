@@ -1,9 +1,0 @@
----
-title: "Example Website"
----
-
-This is an UPPDATED Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-To see examples of different types of text, check out the [walkthrough](walkthrough.qmd)!

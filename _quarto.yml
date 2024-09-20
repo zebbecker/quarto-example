@@ -2,14 +2,17 @@ project:
   type: website
 
 website:
-  title: "NASA Fire Tracking"
+
+  title: "NASA Wildfire Tracking Lab"
+  repo-url: "https://github.com/zebbecker/quarto-example"
+  repo-actions: [edit, issue]
+  bread-crumbs: true
+
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    background: "#0032A0"
 
   sidebar:
-    logo: "images/nasa.png"
+    logo: docs/images/nasa.png
     pinned: true
     align: center
     tools:
@@ -19,20 +22,32 @@ website:
     search: true
     contents: 
       - text: "Home/About"
-        href: "index.qmd"
-      - section: "Data Products"
-        href: data-summary.qmd
+        href: docs/about.qmd
+      - section: "Data"
         contents:
-          - api.qmd
-          - publications.qmd
-          - data_sources.qmd
+          - title: "Data Products"
+            file: docs/data.qmd
+          - title: "API" 
+            file: docs/api.qmd
+          - title: "Publications"
+            file: docs/publications.qmd
+          - title: "Data Sources"
+            file: docs/data_sources.qmd
       - section: "Technical Documentation"
-        href: docs.qmd
         contents: 
-          - system_architecture.qmd
-          - contributing.qmd
-          - releasing.qmd
+          - title: "System Architecture"
+            file: docs/system_architecture.qmd
+            toc: true
+          - title: "Run New Regions"
+            file: docs/new_region.qmd
+          - title: "Contributing"
+            file: docs/contributing.qmd
+          - title: "Releasing"
+            file: docs/releasing.qmd
           - fireatlas_core.qmd
+          - title: "DPS Debugging"
+            file: docs/playbook_dps_debug.md
+
 
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
@@ -43,7 +58,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: docs/styles.css
     toc: true
 
 execute:
