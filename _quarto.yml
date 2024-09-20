@@ -10,43 +10,38 @@ website:
 
   navbar:
     background: "#0032A0"
+    title: "NASA Wildfire Tracking Lab"
+    logo-href: index.qmd
 
   sidebar:
     logo: docs/images/nasa.png
+    logo-href: index.qmd
     pinned: true
     align: center
     tools:
+      - icon: globe
+        href: https://fire.eis.smce.nasa.gov/
       - icon: github
         href: https://github.com/zebbecker/quarto-example
     style: "docked"
     search: true
     contents: 
-      - text: "Home/About"
-        href: docs/about.qmd
+      - text: "Home"
+        href: docs/index.qmd
       - section: "Data"
         contents:
-          - title: "Data Products"
-            file: docs/data.qmd
-          - title: "API" 
-            file: docs/api.qmd
-          - title: "Publications"
-            file: docs/publications.qmd
-          - title: "Data Sources"
-            file: docs/data_sources.qmd
+          - docs/data.qmd
+          - docs/mapping-fires.ipynb
+          - docs/publications.qmd
+          - docs/data_sources.qmd
       - section: "Technical Documentation"
         contents: 
-          - title: "System Architecture"
-            file: docs/system_architecture.qmd
-            toc: true
-          - title: "Run New Regions"
-            file: docs/new_region.qmd
-          - title: "Contributing"
-            file: docs/contributing.qmd
-          - title: "Releasing"
-            file: docs/releasing.qmd
-          - fireatlas_core.qmd
-          - title: "DPS Debugging"
-            file: docs/playbook_dps_debug.md
+          - docs/system_architecture.qmd
+          - docs/fireatlas_core.qmd
+          - docs/new_region.qmd
+          - docs/contributing.qmd
+          - docs/releasing.qmd
+          - docs/playbook_dps_debug.md
 
 
   page-footer:

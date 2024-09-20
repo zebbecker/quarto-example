@@ -1,0 +1,5 @@
+---
+title: Data Products
+---
+
+TODO: guide to our various outputs (allfires, largefires, etc.) and regions, time periods available. 

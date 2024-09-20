@@ -1,0 +1,28 @@
+---
+title: NASA Wildfire Tracking Lab
+format:
+    html:
+        toc: false
+---
+
+![Spread of the Dixie fire between July 14 and October 22, 2021, with the fire line for each 12-hour step in time shown in a different color.](images/dixie_feds.jpg)
+
+## Our Work 
+
+Short, 1 paragraph summary of team's work, vision. 
+
+## Resources
+Our team and collaborators develop and maintain the Fire Event Data Suite, or FEDS. The FEDS code is open source and available [on GitHub](https://github.com/Earth-Information-System/fireatlas). 
+
+With FEDS, we continously generate subdaily estimated fire perimeters using data from the VIIRS sensors on Suomi-NPP and NOAA20 satellites. We currently make data available for several regions of interest, including the continental United States, on our public [API](mapping-fires.ipynb).
+
+Researchers interested in exploring our data can read more about our [data products](data.qmd) and [recent publications](publications.qmd), and are welcome to contact us for further discussion. 
+
+Developers should consult our [technical documentation](system_architecture.qmd) and engage with our community on GitHub.  
+
+
+
+## Team
+Team and affiliations. 
+
+

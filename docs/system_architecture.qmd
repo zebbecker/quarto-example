@@ -1,9 +1,10 @@
 ---
-title: "System Architecture"
+title: "NRT System Architecture"
 author: "Zeb Becker"
+toc: true
 ---
 
-In addition to the core FEDS algorithm, the team maintains a production system to track current fires in near-real time (NRT). This data is made available on our [API](api.qmd). It ingests fire detection data from the VIIRS sensors on Suomi-NPP and NOAA20 satellites, runs the FEDS fire even tracking algorithm forward to account for these new observations, and outputs the updated data to the API.
+In addition to the core FEDS algorithm, the team maintains a production system to track current fires in near-real time (NRT). This data is made available on our [API](mapping-fires.ipynb). It ingests fire detection data from the VIIRS sensors on Suomi-NPP and NOAA20 satellites, runs the FEDS fire even tracking algorithm forward to account for these new observations, and outputs the updated data to the API.
 
 This documentation describes the technical architecture of the production system, primarily for the benefit of our development team and partners.
 
