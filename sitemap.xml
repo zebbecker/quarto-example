@@ -2,54 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://zebbecker.github.io/quarto-example/docs/new_region.html</loc>
-    <lastmod>2024-09-24T14:41:12.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/publications.html</loc>
-    <lastmod>2024-09-24T14:41:12.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/fireatlas_core.html</loc>
-    <lastmod>2024-09-24T14:41:12.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/mapping-fires.html</loc>
-    <lastmod>2024-09-24T14:41:12.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/playbook_dps_debug.html</loc>
-    <lastmod>2024-09-24T14:41:12.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/releasing.html</loc>
-    <lastmod>2024-09-24T14:41:12.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/api.html</loc>
-    <lastmod>2024-09-24T14:41:12.840Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/index.html</loc>
-    <lastmod>2024-09-24T14:41:12.857Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/data.html</loc>
-    <lastmod>2024-09-24T14:41:12.840Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/data_sources.html</loc>
-    <lastmod>2024-09-24T14:41:12.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://zebbecker.github.io/quarto-example/docs/contributing.html</loc>
-    <lastmod>2024-09-24T14:41:12.840Z</lastmod>
+    <lastmod>2024-09-24T23:32:54.419Z</lastmod>
   </url>
   <url>
     <loc>https://zebbecker.github.io/quarto-example/docs/regions.html</loc>
-    <lastmod>2024-09-24T14:41:12.921Z</lastmod>
+    <lastmod>2024-09-24T23:32:54.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/data_overview.html</loc>
+    <lastmod>2024-09-24T23:32:54.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/mapping-fires.html</loc>
+    <lastmod>2024-09-24T23:32:54.418Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/firms.html</loc>
+    <lastmod>2024-09-24T23:32:54.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/index.html</loc>
+    <lastmod>2024-09-24T23:32:54.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/api.html</loc>
+    <lastmod>2024-09-24T23:32:54.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/releasing.html</loc>
+    <lastmod>2024-09-24T23:32:54.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/playbook_dps_debug.html</loc>
+    <lastmod>2024-09-24T23:32:54.419Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/contributing.html</loc>
+    <lastmod>2024-09-24T23:32:54.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://zebbecker.github.io/quarto-example/docs/fireatlas_core.html</loc>
+    <lastmod>2024-09-24T23:32:54.338Z</lastmod>
   </url>
   <url>
     <loc>https://zebbecker.github.io/quarto-example/docs/system_architecture.html</loc>
-    <lastmod>2024-09-24T14:41:12.921Z</lastmod>
+    <lastmod>2024-09-24T23:32:54.419Z</lastmod>
   </url>
 </urlset>
