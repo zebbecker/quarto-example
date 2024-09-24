@@ -1,5 +1,0 @@
----
-title: Data Sources
----
-
-TODO: explain data sources (e.g. VIIRS collections), latency, quality. 

@@ -1,5 +1,0 @@
----
-title: Recent Publications 
----
-
-TODO: link to various FEDS papers.

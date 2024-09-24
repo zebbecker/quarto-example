@@ -1,5 +1,5 @@
 ---
-title: Data Products
+title: FIRMS
 ---
 
 ***Disclaimer:*** *The VIIRS Modeled Fire Perimeters product is intended to provide situational awareness for ongoing fire events in the US and Canada, not a precise estimate of the fire perimeter for emergency response. This research product estimates individual fire event perimeters and properties every 12 hours; the spatial and temporal resolution of each modeled fire perimeter reflects the characteristics and availability of VIIRS 375 m active fire detections from FIRMS.*

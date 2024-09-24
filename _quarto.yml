@@ -3,14 +3,14 @@ project:
 
 website:
 
-  title: "NASA Wildfire Tracking Lab"
+  title: "Wildfire Tracking Lab"
   repo-url: "https://github.com/zebbecker/quarto-example"
   repo-actions: [edit, issue]
   bread-crumbs: true
 
   navbar:
     background: "#0032A0"
-    title: "NASA Wildfire Tracking Lab"
+    title: "Wildfire Tracking Lab"
     logo-href: index.qmd
 
   sidebar:
@@ -29,16 +29,26 @@ website:
       - text: "Home"
         href: docs/index.qmd
       - section: "Data"
+        href: docs/data_overview.qmd
         contents:
-          - docs/data.qmd
-          - docs/mapping-fires.ipynb
-          - docs/publications.qmd
-          - docs/data_sources.qmd
-      - section: "Technical Documentation"
+          - docs/data_overview.qmd
+          - docs/api.qmd
+          - docs/firms.qmd
+          - section: Published Datasets
+            contents:
+              - docs/liu2024.qmd
+              - docs/mccabe2024.qmd
+              - docs/orland2024.qmd
+              - docs/scholten2024.qmd
+              - docs/andela2022.qmd
+              - docs/chen2022.qmd
+              - docs/andela2019.qmd
+              - docs/amazondashboard.qmd
+      - section: "Developer Documentation"
         contents: 
           - docs/system_architecture.qmd
           - docs/fireatlas_core.qmd
-          - docs/new_region.qmd
+          - docs/custom_regions.qmd
           - docs/contributing.qmd
           - docs/releasing.qmd
           - docs/playbook_dps_debug.md
